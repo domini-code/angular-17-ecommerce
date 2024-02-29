@@ -3,13 +3,9 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: 'products',
-    loadComponent: () => import('./features/products/products.component'),
+    loadChildren: () => import('./features/products/products.routes'),
   },
-  {
-    path: 'product-details/:id',
-    loadComponent: () =>
-      import('./features/products/details/details.component'),
-  },
+
   {
     path: 'checkout',
     loadComponent: () => import('./features/checkout/checkout.component'),
