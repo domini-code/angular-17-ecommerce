@@ -3,7 +3,7 @@
     <a routerLink="/" class="text-lg font-bold">DOMINISTORE</a>
     <div class="flex items-center">
       <a routerLink="/products" class="mr-6">Products</a>
-      <div class="relative">
+      <div class="relative" (mouseenter)="showCart.set(true)" (mouseleave)="showCart.set(false)">
         <a routerLink="/checkout">
           <svg fill="none" height="25" viewBox="0 0 15 15" width="25" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -16,19 +16,25 @@
               d="M12.5 12C11.6716 12 11 12.6716 11 13.5C11 14.3284 11.6716 15 12.5 15C13.3284 15 14 14.3284 14 13.5C14 12.6716 13.3284 12 12.5 12ZM12 13.5C12 13.2239 12.2239 13 12.5 13C12.7761 13 13 13.2239 13 13.5C13 13.7761 12.7761 14 12.5 14C12.2239 14 12 13.7761 12 13.5Z"
               fill="black" fill-rule="evenodd" />
           </svg>
-          <span class="absolute right-0 px-1 text-lg font-bold text-white -top-1">COUNT </span></a>
+          <span
+            class="absolute right-0 px-1 text-lg font-bold text-white -top-1">{{cartStore.productsCount()}}</span></a>
+        @if (showCart() && cartStore.productsCount()) {
 
-        <div class="absolute right-0 z-30 w-48 p-2 mt-2 text-white rounded-sm bg-slate-400">
+        <div [ngClass]="{'show-cart-animation': showCart()}"
+          class="absolute right-0 z-30 w-48 p-2 mt-2 text-white rounded-sm bg-slate-400">
+          @for (product of cartStore.products(); track $index) {
           <div class="flex items-center justify-between">
-            <span>3 - shirts </span>
-            <span>3 - shirts </span>
+            <span>{{product.qty}} {{product.title | slice: 0:10}} {{product.subTotal || product.price |
+              currency}}</span>
           </div>
+          }
           <hr class="my-4 border-gray-500 border-t-1" />
           <div class="flex justify-between py-3 font-light">
             Total:
-            <span class="not-italic font-bold">Total: 554</span>
+            <span class="not-italic font-bold">{{cartStore.totalAmount() | currency}}</span>
           </div>
         </div>
+        }
       </div>
     </div>
   </div>
