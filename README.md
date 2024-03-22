@@ -1,27 +1,32 @@
-# DominiStore
+# E-Commerce con Angular 17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+El código de este repositorio es parte del curso de 28 días con Angular 17. Puedes ver el [curso completo](https://www.youtube.com/watch?v=tpS5w5tic_U) o ir a la sección que te interese: 👇🏼
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Consumiendo API de tercero con (provideHttpClient)](https://www.youtube.com/watch?v=XDSGu5jD_3o)
+- [Descubre los Interceptores HTTP en Angular 17](https://www.youtube.com/watch?v=Zu0pF_kNX00)
+- [Configurar RUTAS en Angular 17 - provideRouter](https://www.youtube.com/watch?v=yOlaImDMaG8)
+- [ROUTER input PARAMS como usarlo - withComponentInputBinding ](https://www.youtube.com/watch?v=GCGEptbaK4Y)
+- [Nuevo control flow con un ejemplo práctico](https://www.youtube.com/watch?v=J9yQTVK1sI4)
+-  [transformar valores con el @INPUT](https://www.youtube.com/watch?v=B2BSX2bhOog&t=515s)
+-  [Transiciones de animación en RUTAS en Angular 17 withViewTransitions](https://www.youtube.com/watch?v=FZJRMRWs7jc)
+-  [Cómo arreglar el error de runininjectioncontext?](https://www.youtube.com/watch?v=USjdHerDU20)
+-  [Angular Server Side Rendering en Español](https://www.youtube.com/watch?v=pTLRdBPGz74)
+-  [Hidratación NO destructiva Angular 17 con SSG](https://www.youtube.com/watch?v=s_WIGgV1krg)
+-  [Explorando los Hooks AfterRender & AfterNextRender](https://www.youtube.com/watch?v=t9xGaG4w9Hc)
+-  [Cómo hacer deploy de SSR en VERCEL](https://www.youtube.com/watch?v=xuy6ioIPUeU)
+-  [Nueva propiedad: styleUrl](https://www.youtube.com/watch?v=RBbK8_IFZ20)
+-  [Lazy loading en Angular 17, con Standalone component](https://www.youtube.com/watch?v=Pgx8pUKZyPA)
+-  [Angular 17 devtools - Cómo depurar aplicación fácilmente](https://www.youtube.com/watch?v=xzwVG06lp7M)
+- [Nuevos builders para TU 🚀 aplicación- esBuild & Vite](https://www.youtube.com/watch?v=HbGLHzrhe2A)
+- [DEFER - Deferrable views ¿Cómo utilizarla?](https://www.youtube.com/watch?v=oxL7MAakD5w&t=4s)
+- [ El Futuro de la Reactividad en Angular con Signals](https://www.youtube.com/watch?v=OmeVz1xqvxk&t=747s)
+- [rxjs-interop para una Programación Reactiva Avanzada](https://www.youtube.com/watch?v=eUmNcrKRzZA)
+- [Introducción a las Input Signals en Angular 17.1 ](https://www.youtube.com/watch?v=2Ryej47fIx8)
+- [Nueva API Model para Binding Bidireccional con Signal en Angular 17.2](https://www.youtube.com/watch?v=yXxFgV-90lQ&t=57s)
+- [Signal queries en Angular 17.2 - viewChild - viewChildren](https://www.youtube.com/watch?v=UceFBC3EIbs)
+- [Como utilizar contentChildren & contentChild en Angular 17.2](https://www.youtube.com/watch?v=IZnj0NZXQFw)
+- [Ya no necesitamos RXJS; tenemos las Signals](https://www.youtube.com/watch?v=hSvromrefY0)
+- [Gestión de Estado en Angular sencilla y eficiente con NgRx Signals!](https://www.youtube.com/watch?v=e8Jx9a9RA10&t=3s)
+- [Crear pequeños states con signalState de @NGRX/SIGNALS](https://www.youtube.com/watch?v=SWkjVXy4gY8)
+- [NgRx Signals! ¡La solución para la Gestión de Estado](https://www.youtube.com/watch?v=9kk-_0DpvUY&t=1s)
+  
