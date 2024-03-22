@@ -51,6 +51,7 @@ export class CardComponent {
   @Output() addToCartEvent = new EventEmitter<Product>();
 
   onAddToCart(): void {
-    this.addToCartEvent.emit(this.product());
+    const productWithQty = { ...this.product(), qty: 1 };
+    this.addToCartEvent.emit(productWithQty)
   }
 }
